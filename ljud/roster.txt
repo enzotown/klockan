@@ -1,0 +1,78 @@
+Ställ klockan på ett
+Ställ klockan på två
+Ställ klockan på tre
+Ställ klockan på fyra
+Ställ klockan på fem
+Ställ klockan på sex
+Ställ klockan på sju
+Ställ klockan på åtta
+Ställ klockan på nio
+Ställ klockan på tio
+Ställ klockan på elva
+Ställ klockan på tolv
+Ställ klockan på halv ett
+Ställ klockan på halv två
+Ställ klockan på halv tre
+Ställ klockan på halv fyra
+Ställ klockan på halv fem
+Ställ klockan på halv sex
+Ställ klockan på halv sju
+Ställ klockan på halv åtta
+Ställ klockan på halv nio
+Ställ klockan på halv tio
+Ställ klockan på halv elva
+Ställ klockan på halv tolv
+Vilken klocka visar ett?
+Vilken klocka visar två?
+Vilken klocka visar tre?
+Vilken klocka visar fyra?
+Vilken klocka visar fem?
+Vilken klocka visar sex?
+Vilken klocka visar sju?
+Vilken klocka visar åtta?
+Vilken klocka visar nio?
+Vilken klocka visar tio?
+Vilken klocka visar elva?
+Vilken klocka visar tolv?
+Vilken klocka visar halv ett?
+Vilken klocka visar halv två?
+Vilken klocka visar halv tre?
+Vilken klocka visar halv fyra?
+Vilken klocka visar halv fem?
+Vilken klocka visar halv sex?
+Vilken klocka visar halv sju?
+Vilken klocka visar halv åtta?
+Vilken klocka visar halv nio?
+Vilken klocka visar halv tio?
+Vilken klocka visar halv elva?
+Vilken klocka visar halv tolv?
+ett!
+två!
+tre!
+fyra!
+fem!
+sex!
+sju!
+åtta!
+nio!
+tio!
+elva!
+tolv!
+halv ett!
+halv två!
+halv tre!
+halv fyra!
+halv fem!
+halv sex!
+halv sju!
+halv åtta!
+halv nio!
+halv tio!
+halv elva!
+halv tolv!
+Läs klockan! Tryck på den klocka som visar samma tid.
+Vad duktig du är! Nu kommer halva timmar också.
+Fem rätt! Vad duktig du är!
+Nästan! Den korta visaren visar timmen.
+Nästan! Titta på den korta visaren.
+Och så den långa visaren ner till sex!

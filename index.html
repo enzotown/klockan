@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<script src="https://www.skolappar.org/kotten.js" defer></script>
+<meta name="skolappar:kotten" content="bottom-left">
+<title>Klockan — lär dig tiden med Kotten</title>
+<meta name="description" content="Ställ klockan, läs vad klockan är eller hitta urtavlan som matchar siffrorna. Tid för barn 4–6 år: hela och halva timmar, dra visarna med fingret.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Klockan — lär dig tiden med Kotten">
+<meta property="og:description" content="Ställ klockan, läs vad klockan är eller hitta urtavlan som matchar siffrorna. Tid för barn 4–6 år: hela och halva timmar, dra visarna med fingret.">
+<meta property="og:image" content="https://klockan.shipholm.dev/delningsbild.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="sv_SE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Klockan">
+<meta name="theme-color" content="#fdf3e7">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  html, body { margin:0; padding:0; height:100%; overflow:hidden; background:#fdf3e7;
+    font-family:"Trebuchet MS", Verdana, sans-serif; -webkit-user-select:none; user-select:none;
+    -webkit-tap-highlight-color:transparent; touch-action:none; }
+  #wrap { position:fixed; inset:0; }
+  canvas { display:block; touch-action:none; }
+  a.lgr22 { position:fixed; right:calc(8px + env(safe-area-inset-right)); bottom:calc(6px + env(safe-area-inset-bottom));
+    display:flex; align-items:center; justify-content:center; width:30px; height:30px;
+    border-radius:9px; background:rgba(74,63,57,.10); color:#4a3f39; opacity:.45;
+    text-decoration:none; font-size:16px; line-height:1; }
+
+  .rostkredit { position:fixed; right:8px; bottom:6px; max-width:44vw; font:11px/1.35 "Trebuchet MS",Verdana,sans-serif;
+    color:#4a3f39; opacity:.55; text-align:right; z-index:40; }
+  .rostkredit a { color:inherit; }
+  @media (max-width:520px){ .rostkredit { font-size:10px; max-width:52vw; } }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="c"></canvas></div>
+<a class="lgr22" href="larare.html" aria-label="Lärarsida">📖</a>
+<script src="ljud/lines.js"></script>
+<script src="ljud/rosten.js"></script>
+<script src="sma-ljud.js"></script>
+<script src="app.js"></script>
+<script>
+  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+    // bara på riktigt https: annars cachar sw.js lokala testfiler och då ser man gamla ändringar
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  }
+</script>
+<p class="rostkredit"><a href="larare.html#rosten">Röst: OmniVoice (k2-fsa, CC BY-NC) · Higgs Materials/Boson AI · Meta Llama 3</a></p>
+</body>
+</html>
